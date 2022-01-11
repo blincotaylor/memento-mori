@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&family=Cinzel:wght@400;500;600;700&family=Roboto+Slab:wght@300;400;600;700&family=Teko:wght@300;400;500;600&display=swap");
+
+/* font-family: 'Cairo', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Roboto Slab', serif; 
+font-family: 'Teko', sans-serif; */
+
+/*! START OF RESET !*/
 /* Box sizing rules */
 *,
 *::before,
@@ -75,6 +83,13 @@ select {
 
 /*! END OF RESET !*/
 
+.header__title {
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+}
+
 .area-1,
 .area-2,
 .area-3,
@@ -116,7 +131,7 @@ select {
   display: flex;
 
   gap: 0.1em;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .box {
@@ -127,4 +142,24 @@ select {
 
 .filled {
   background-color: #333;
+}
+
+footer {
+  width: 55%;
+  margin: auto;
+}
+
+.footer__quote {
+  padding-top: 1rem;
+
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.footer__attribution {
+  font-family: "Teko", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
 }
